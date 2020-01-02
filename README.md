@@ -19,3 +19,8 @@
     * :q
     * export PATH="/home/user/.local/bin:$PATH"
     * DAFUQ! Лучше попытаю счастья с другим базовым образом
+        * Вроде подходит:
+        * quay.io/eclipse/che-nodejs10-community:nightly
+            * git
+            * make
+            * python3
