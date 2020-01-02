@@ -15,6 +15,19 @@
     * https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/
 * tar -xzvf openshift-client-linux-4.2.12.tar.gz
 
+```
+mkdir /projects/bin
+echo "export PATH=\"/projects/bin:$PATH\"" >> ~/.bashrc
+source ~/.bashrc
+
+cd /projects/bin
+wget https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/openshift-client-linux-4.2.12.tar.gz
+tar -xzvf openshift-client-linux-4.2.12.tar.gz
+```
+
+# export PATH="/projects/bin:$PATH"
+# echo "export PATH=\"/projects/bin:$PATH\"" >> log.txt
+
 * добавить /home/user/.local/bin в $PATH
     * vi ~/.bashrc
     * :w
