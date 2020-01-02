@@ -1,3 +1,5 @@
+Базовый образ: https://hub.docker.com/repository/docker/isbur/rpd-generator-image
+
 * используй nodejs-related стеки – а то даже git'a не найдёшь
     * git config --global push.default upstream
     * git config --global credential.helper store
@@ -18,9 +20,3 @@
     * :w
     * :q
     * export PATH="/home/user/.local/bin:$PATH"
-    * DAFUQ! Лучше попытаю счастья с другим базовым образом
-        * Вроде подходит:
-        * quay.io/eclipse/che-nodejs10-community:nightly
-            * git
-            * make
-            * python3
